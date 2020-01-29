@@ -1,0 +1,93 @@
+  506  git config --global user.name "WesleyMeneghini"
+  507  git config --global user.email "wesley.meneghini@outlook.com.br"
+  508  git config --global user.email 
+  509  git config --global user.name 
+  510  git add package.json 
+  511  git status
+  512  git rm --cached package.json 
+  513  git status
+  514  git add package.json 
+  515  git rm --cached package.json 
+  516  git status
+  517  git add package.json 
+  518  git status
+  519  git commit -m "Primeiro commit"
+  520  git status
+  521  git log
+  522  > index.js
+  523  nano index.js 
+  524  nano index.js 
+  525  ls
+  526  git status
+  527  git add *
+  528  git status
+  529  nano index.js 
+  530  git status
+  531  git add *
+  532  git status
+  533  git commit -m "Segundo commit"
+  534  git log
+  535  git status
+  536  echo "segundo arquivo" > segundo-arquivo.js
+  537  echo "console.log('segundo arquivo');" > segundo-arquivo.js
+  538  echo "console.log('Terceira linha');" >> index.js 
+  539  git status
+  540  git diff
+  541  git add *
+  542  git status
+  543  git commit -m "Terceito commit"
+  544  git log
+  545  git checkout 78cacae2f5ebbf95c8d4702538391483fa56297f
+  546  ls
+  547  cat index.js 
+  548  cat package.json 
+  549  git checkout master
+  550  cat index.js 
+  551  > .gitignore
+  552  npm install --save express
+  553  echo "/node_modules/" >> .gitignore 
+  554  cat .gitignore 
+  555  echo "node_modules/" > .gitignore 
+  556  cat .gitignore 
+  557  git status
+  558  git add .
+  559  git status
+  560  git commit -m "Criação do gitignore"
+  561  git branch funcionalidade1
+  562  git checkout funcionalidade1 
+  563  git branch 
+  564  git status
+  565  git log
+  566  echo "console.log('Minha funcionalidade');" > funcionalidade1.js
+  567  git status
+  568  git add .
+  569  git status
+  570  git commit -m "Primeiro commit da funcionalidade1"
+  571  git log
+  572  git status
+  573  git checkout master
+  574  git log
+  575  git checkout funcionalidade1 
+  576  git log
+  577  echo "console.log('Qualquer coisa')" >> funcionalidade1.js 
+  578  git status
+  579  git diff
+  580  git add .
+  581  git status
+  582  git commit -m "Segundo commit da funcionalidade1" 
+  583  git log
+  584  git checkout master
+  585  git merge funcionalidade1
+  586  git log
+  587  git checkout funcionalidade1 
+  588  git log
+  589  git status
+  590  git branch -D funcionalidade1 
+  591  git checkout master
+  592  git branch -D funcionalidade1 
+  593  git branch 
+  594  git remote add origin https://github.com/WesleyMeneghini/aulagit.git
+  595  git remote -v
+  596  git push origin master
+  597  cat history >> comandogit.txt
+  598  history >> comandogit.txt
